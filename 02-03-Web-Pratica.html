@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pratica 2</title>
+</head>
+
+<style>
+    body {
+        background-color: orange;
+    }
+
+    .P01 {
+        background-color: orange;
+    }
+
+    .p02 {
+        background-color: orange;
+    }
+
+    .p03 {
+        background-color: orange;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .item {
+        background-color: rgb(191, 191, 211);
+        color: white;
+    }
+</style>
+
+<body>
+    <h1>Pratica 02</h1>
+    <div class="P01">
+
+        <h2>Crie uma lista não ordenada</h2>
+        <ul>
+            <li>Arroz</li>
+            <li>Feijão</li>
+            <li>Laranja</li>
+            <li>Maça</li>
+            <li>Pão</li>
+        </ul>
+    </div>
+    <h2>Sites</h2>
+    <div class="container">
+        <div class="item">
+            <li><a href="https://www.mozilla.org/pt-BR/">Google</a></li>
+        </div>
+        <div class="item">
+            <li><a href="https://www.mozilla.org/pt-BR/">Youtube</a></li>
+        </div>
+        <div class="item">
+            <li><a href="https://www.mozilla.org/pt-BR/">Instagram</a></li>
+        </div>
+    </div>
+
+    <div class="p03">
+        <h2>Formulario</h2>
+
+        <form action="http://www.google.com" method="get">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" />
+            </div>
+            <div>
+                <label for="Escolaridade">Escolaridade:</label>
+                <input type="radio" name="Escolaridade" value="Fundamental" checked="checked"> Fundamental
+                <input type="radio" name="Escolaridade" value="Medio"> Medio
+                <input type="radio" name="Escolaridade" value="Superior"> Superior
+                <br>
+                <label for="Veiculo">Veiculo:</label>
+                <input type="checkbox" name="Veiculo" value="Fundamental" checked="checked"> Fundamental
+                <input type="checkbox" name="Veiculo" value="Medio"> Medio
+                <input type="checkbox" name="Veiculo" value="Superior"> Superior
+                <br>
+            </div>
+            
+            <div class="button">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+
+
+    </div>
+</body>
+
+</html>
